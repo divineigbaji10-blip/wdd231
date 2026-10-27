@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) {
+    #menu-button{
+        display: none;
+    }
+    #nav-menu, #nav-menu.open{
+        display: flex;
+    }
+    #nav-menu a{
+        padding: 0.9rem 1.25rem;
+        border-top: none;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 1.5rem;
+    }
+    h1, .courses{
+        grid-column: 1 / -1;
+    }
+    .photo img{
+        max-width: 220px;
+    }
+    #course-list{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    body{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}

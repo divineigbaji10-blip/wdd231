@@ -4,10 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 231</title>
+    <meta name="description" content="Course home page for Divine Igbaji, showing progress in HTML, CSS and JavaScript.">
+    <meta name="author" content="Divine Prosper Igbaji">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
 </head>
 <body>
-    <h1>
-        WDD 231
-    </h1>
+    <header>
+        <img src="images/logo.svg" alt="Site logo" width="48" height="48">
+        <span class="site-name">Divine Igbaji</span>
+        <button id="menu-button" type="button" aria-label="Menu"></button>
+    </header>
+    <nav>
+        <ul id="nav-menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>My name is Divine Igbaji, I am from Nigeria working toward a Bachelor of Science in Software Development
+                at BYU Pathway Worldwide. I am learning HTML, CSS and JavaScript and I enjoy building responsive websites
+                that look good. I enjoy reading and watching movies during my spare time. My goal is to grow into a very good
+                Web Developer and this course is helping me get there. 
+            </p>
+        </section>
+
+        <section class="photo">
+            <h2>Student Photo</h2>
+            <img src="images/photo.webp" alt="Picture of Divine Igbaji" width="600" height="900">
+        </section>
+
+        <section class="courses">
+            <h2>Web Certificate Courses</h2>
+            <div class="filters">
+                <button type="button">All</button>
+                <button type="button">CSE</button>
+                <button type="button">WDD</button>
+            </div>
+            <div id="course-list"></div>
+            <p id="credits"></p>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://www.facebook.com/share/1E288sdADC/" target="_blank">
+                <img src="images/facebook.svg" alt="Facebook profile" width="16" height="16">
+            </a>
+            <a href="https://linkedin.com/in/divine-igbaji-b98a933b7" target="_blank">
+                <img src="images/linkedin.svg" alt="LinkedIn Profile" width="16" height="16">
+            </a>
+            <a href="https://github.com/divineigbaji10-blip" target="_blank">
+                <img src="images/github.svg" alt="GitHub Profile" width="16" height="16">
+            </a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> | Divine Igbaji | Nigeria</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
 </body>
 </html>
