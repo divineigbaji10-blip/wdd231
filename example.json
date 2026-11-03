@@ -1,0 +1,24 @@
+{
+    "familyName": "Igbaji",
+    "moveDate": "21/10/2026",
+    "numberOfPeople": 3,
+    "bishopricVisit": true,
+    "familyDate": [
+        {
+            "name": "Maria",
+            "gender": "Female",
+            "birthdate": "07/12/1983"
+        },
+        {
+            "name": "Divine",
+            "gender": "Female",
+            "birthdate": "05/02/2010"
+        },
+        {
+            "name": "Annabel",
+            "gender": "Female",
+            "birthdate": "27/05/2016"
+        }
+    ]
+
+}
