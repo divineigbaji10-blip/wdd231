@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Gateway Fresh Mart",
+        "tagline": "Fresh food for every home",
+        "address": "5, Ibafo Market Road, Ibafo, Ogun State",
+        "phone": "(234) 702-345-6789",
+        "email": "info@gatewayfresh.ng",
+        "website": "https://www.gatewayfresh.ng",
+        "image": "gateway-fresh-mart.webp",
+        "membership": 3
+    },
+    {
+        "name": "Ibafo Tech Hub",
+        "tagline": "Computers, repairs and training",
+        "address": "14, Asgard Street, Ibafo",
+        "phone": "(234) 803-456-7891",
+        "email": "info@ibafotechhub.ng",
+        "website": "https://www.ibafotechhub.ng",
+        "image": "ibafo-tech-hub.webp",
+        "membership": 2
+    },
+    {
+        "name": "Mama D Kitchen",
+        "tagline": "Home cooked Nigerian meals",
+        "address": "22, Captain Street, Ibafo",
+        "phone": "(234) 814-567-8912",
+        "email": "info@mamadkitchen.ng",
+        "website": "https://www.mamadkitchen.ng",
+        "image": "mama-d-kitchen.webp",
+        "membership": 2
+    },
+    {
+        "name": "Bright Stars Academy",
+        "tagline": "Quality education for children",
+        "address": "3, Orion Lane, Ibafo",
+        "phone": "(234) 915-678-9123",
+        "email": "info@brightstars.ng",
+        "website": "https://www.brightstars.ng",
+        "image": "bright-stars-academy.webp",
+        "membership": 2
+    },
+    {
+        "name": "Prime Auto Care",
+        "tagline": "Service you can trust",
+        "address": "9, Garage Street, Ibafo",
+        "phone": "(234) 806-789-1234",
+        "email": "info@primeautocare.ng",
+        "website": "https://www.primeautocare.ng",
+        "image": "prime-auto-care.webp",
+        "membership": 1
+    },
+    {
+        "name": "Glow Beauty Studio",
+        "tagline": "Hair, skin and nails",
+        "address": "17, Glory Avenue, Ibafo",
+        "phone": "(234) 817-891-2345",
+        "email": "info@glowbeauty.ng",
+        "website": "https://www.glowbeauty.ng",
+        "image": "glow-beauty-studio.webp",
+        "membership": 1
+    },
+    {
+        "name": "Ogun Build Supplies",
+        "tagline": "Everything for your project",
+        "address": "28, Industrial Road, Ibafo",
+        "phone": "(234) 808-912-3456",
+        "email": "info@ogunbuild.ng",
+        "website": "https://www.ogunbuild.ng",
+        "image": "ogun-build-supplies.webp",
+        "membership": 1
+    }
+]

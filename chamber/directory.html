@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Directory Page | WDD 231</title>
+    <meta name="description" content="Browse the Chamber of Commerce directory and find local businesses, with contact details, websites, and membership levels.">
+    <meta name="author" content="Divine Prosper Igbaji">
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:description" content="Connecting local businesses and community members through networking events, a searchable member directory, and resources that help our community grow and thrive.">
+    <meta property="og:image" content="https://divineigbaji10-blip.github.io/wdd231/chamber/images/chamber-share.jpg">
+    <meta property="og:url" content="https://divineigbaji10-blip.github.io/wdd231/chamber/directory.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/directory.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/chamber-favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <img src="images/logo.svg" alt="Chamber of Commerce logo" width="50" height="50">
+            <p class="site-name">Ibafo Chamber of Commerce</p>
+        </div>
+        <button id="menu-button" aria-label="Open menu">☰</button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Directory</h1>
+        <div class="view-buttons">
+            <button id="grid" class="active">Grid</button>
+            <button id="list">List</button>
+        </div>
+        <section id="members" class="grid" aria-label="Chamber business members"></section>
+    </main>
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Ibafo Chamber of Commerce</strong></p>
+            <p>12 Lagos-Ibadan Expressway, Ibafo, Ogun State, Nigeria</p>
+            <p>info@ibafochamber.org</p>
+            <p>(234) 810-567-1234</p>
+        </div>
+        <div class="footer-social">
+            <a href="https://www.youtube.com/">
+                <img src="images/youtube.svg" alt="Youtube page" width="16" height="16">
+            </a>
+            <a href="https://x.com/">
+                <img src="images/x.svg" alt="X page" width="16" height="16">
+            </a>
+            <a href="https://www.linkedin.com/">
+                <img src="images/linkedin.svg" alt="LinkedIn Page" width="16" height="16">
+            </a>
+        </div>
+        <div class="footer-info">
+            <p>WDD 231 Class Project</p>
+            <p>Divine Prosper Igbaji</p>
+            <p>&copy; <span id="year"></span> Ibafo Chamber of Commerce</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,224 @@
+:root{
+    --primary-color: #e60b33;
+    --secondary-color: #8f0825;
+    --background-color: #fff7f8;
+    --text-color: #2b2023;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    line-height: 1.6;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--background-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding: 1rem;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+.site-name{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.brand img{
+    width: 50px;
+    height: 50px;
+}
+nav{
+    width: 100%;
+}
+#nav-menu{
+    display: none;
+    width: 100%;
+}
+#nav-menu.open{
+    display: block;
+}
+#nav-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+#nav-menu a{
+    display: block;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    font-weight: 600;
+}
+nav a:hover, nav a.active{
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+#menu-button{
+    background: none;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+h1{
+    color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.view-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.view-buttons button{
+    padding: 0.5rem 1.5rem;
+    border: 2px solid var(--primary-color);
+    background-color: #fff;
+    color: var(--primary-color);
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.view-buttons button.active{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+#members.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+#members.grid .member-card{
+    background-color: #fff;
+    border: 1px solid #e2d2d5;
+    border-top: 5px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 1.25rem;
+    text-align: center;
+}
+#members.grid .member-card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.75rem;
+    border: 2px solid var(--background-color);
+}
+#members.grid .card-info h3{
+    color: var(--secondary-color);
+    margin: 0.25rem 0;
+}
+#members.grid .card-info .tagline{
+    font-size: 0.9rem;
+    color: #665558;
+    margin: 0.75rem;
+}
+#members.grid .card-info p{
+    font-size: 0.85rem;
+    margin: 0.3rem 0;
+}
+#members.list{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border: 1px solid #e2d2d5;
+    border-radius: 4px;
+    overflow: hidden;
+}
+#members.list .member-card{
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #e2d2d5;
+    padding: 0.85rem 1.25rem;
+    border-radius: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#members.list .member-card:nth-child(even){
+    background-color: var(--background-color);
+}
+#members.list .member-card:last-child{
+    border-bottom: none;
+}
+#members.list .member-card img{
+    display: none;
+}
+#members.list .card-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 1.5rem;
+}
+#members.list .card-info h3{
+    color: var(--secondary-color);
+    margin: 0;
+    font-size: 1rem;
+    flex: 1;
+}
+#members.list .card-info a{
+    color: var(--secondary-color);
+    text-decoration: underline;
+    flex: 1;
+}
+#members.list .card-info .tagline{
+    display: none;
+}
+#members.list .card-info .membership{
+    display: none;
+}
+#members.list .card-info p{
+    font-size: 0.85rem;
+    margin: 0;
+    flex: 1;
+}
+footer{
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+footer a{
+    color: #ffccd5;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.footer-social img, .footer-social a{
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+}
