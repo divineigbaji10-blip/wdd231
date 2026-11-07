@@ -63,7 +63,7 @@ nav{
     font-weight: 600;
 }
 nav a:hover, nav a.active{
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: #fff;
 }
 #menu-button{
@@ -112,7 +112,7 @@ h1{
 #members.grid .member-card{
     background-color: #fff;
     border: 1px solid #e2d2d5;
-    border-top: 5px solid var(--primary-color);
+    border-top: 5px solid var(--secondary-color);
     border-radius: 8px;
     padding: 1.25rem;
     text-align: center;
