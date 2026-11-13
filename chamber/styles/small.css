@@ -109,14 +109,8 @@ main{
     inset: 0;
     background-color: #00000080;
 }
-.hero-content h1{
-    color: #fff;
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-}
-.hero-content p{
-    color: #fff;
-    font-size: 1rem;
+.hero-content h1, .hero-content p{
+    color: #e60b33;
 }
 .cta-button{
     display: inline-block;
