@@ -107,7 +107,7 @@ main{
     content: "";
     position: absolute;
     inset: 0;
-    background-color: #00000045;
+    background-color: #00000080;
 }
 .hero-content h1{
     color: #fff;
