@@ -40,6 +40,10 @@
     #forecast-container{
         grid-template-columns: repeat(3, 1fr);
     }
+    .join-layout{
+        grid-template-columns: 3fr 2fr;
+        align-items: start;
+    }
     footer{
         flex-direction: row;
         justify-content: space-between;
