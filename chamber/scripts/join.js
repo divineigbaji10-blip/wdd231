@@ -24,3 +24,9 @@ infoButtons.forEach((button) => {
         }
     })
 })
+const closeButtons = document.querySelectorAll('.close-button');
+closeButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+        button.closest('dialog').close();
+    })
+})

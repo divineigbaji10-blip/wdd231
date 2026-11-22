@@ -391,6 +391,7 @@ h1{
     border-radius: 6px;
     text-align: center;
     border-top: 5px solid var(--primary-color);
+    animation: card-fade-in 0.8s ease-out backwards;
 }
 .level-card h3{
     color: var(--secondary-color);
@@ -398,15 +399,19 @@ h1{
 }
 .level-card.np{
     border-top-color: #2e7d32;
+    animation-delay: 0.2s;
 }
 .level-card.bronze{
     border-top-color: #cd7f32;
+    animation-delay: 0.4s;
 }
 .level-card.silver{
     border-top-color: #a8a9ad;
+    animation-delay: 0.6s;
 }
 .level-card.gold{
     border-top-color: #d4af37;
+    animation-delay: 0.8s;
 }
 .info-button{
     background-color: var(--primary-color);
@@ -438,7 +443,7 @@ dialog h3{
 dialog ul{
     padding-left: 1.25rem;
 }
-dialog form{
+.modal-actions{
     text-align: right;
 }
 dialog button{
@@ -464,21 +469,6 @@ dialog button:hover{
         opacity: 1;
         transform: translateY(0);
     }
-}
-.level-card{
-    animation: card-fade-in 0.8s ease-out backwards;
-}
-.level-card.np{
-    animation-delay: 0.2s;
-}
-.level-card.bronze{
-    animation-delay: 0.4s;
-}
-.level-card.silver{
-    animation-delay: 0.6s;
-}
-.level-card.gold{
-    animation-delay: 0.8s;
 }
 @media(prefers-reduced-motion: reduce){
     .level-card{
